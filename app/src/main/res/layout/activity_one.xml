@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OneActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ece9d8">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:navigationIcon="@mipmap/ic_launcher"
+        app:logo="@android:drawable/ic_dialog_info"
+        app:title="제목"
+        app:titleTextColor="#FFFFFF"
+        app:subtitle="부제목"
+        app:subtitleTextColor="#FFFFFF"
+        />
+    <Spinner
+        android:id = "@+id/spinner"
+        android:entries="@array/구"
+        android:layout_width ="wrap_content"
+        android:layout_height="wrap_content"
+        android:popupBackground="#00FF00"
+        android:spinnerMode="dialog"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="193dp"
+        android:text="지역구 선택"
+        android:textSize="30sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/One"
+        android:layout_width="127dp"
+        android:layout_height="131dp"
+        android:text="1"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Page1"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="438dp" />
+</RelativeLayout>

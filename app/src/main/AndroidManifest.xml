@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.big2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/kid"
+        android:label="나홀로집에"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Intro">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".OneOne" />
+        <activity android:name=".TwoActivity" />
+        <activity android:name=".OneActivity" />
+        <activity android:name=".MainActivity">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Intro">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="229dp"
+        android:layout_height="45dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Home..Alone..."
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="210dp" />
+</android.support.constraint.ConstraintLayout>
